@@ -1,0 +1,24 @@
+{
+  "name": "roxilerassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node-fetch": "^2.6.11",
+    "express": "^4.21.0"
+  },
+  "dependencies": {
+    "@mongoosejs/double": "^0.3.0",
+    "cors": "^2.8.5",
+    "mongoose": "^8.7.0",
+    "node-fetch": "^2.7.0"
+  }
+}
